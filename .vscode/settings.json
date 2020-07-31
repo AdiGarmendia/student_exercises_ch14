@@ -1,0 +1,10 @@
+{
+    "sqltools.connections": [
+        {
+            "database": "\\\\wsl$\\Ubuntu-18.04\\home\\adi_g\\workspace\\python\\StudentExercises\\studentexercises.db",
+            "driver": "SQLite",
+            "name": "studentexercises",
+            "previewLimit": 50
+        }
+    ]
+}

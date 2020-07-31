@@ -134,3 +134,102 @@ where  Cohort.Name like "%41%";
 
 SELECT * FROM Student;
 
+INSERT INTO StudentExercises (StudentId, ExerciseId)
+select Student.Id, Exercise.Id
+from Student, Exercise
+where Student.FirstName = "Dwight" 
+and Student.LastName = "Schrutte"
+and Exercise.Name = "Kandy Korner";
+
+INSERT INTO StudentExercises (StudentId, ExerciseId)
+select Student.Id, Exercise.Id
+from Student, Exercise
+where Student.FirstName = "King" 
+and Student.LastName = "Reptar"
+and Exercise.Name = "Keahua";
+
+INSERT INTO StudentExercises (StudentId, ExerciseId)
+select Student.Id, Exercise.Id
+from Student, Exercise
+where Student.FirstName = "Yasiel" 
+and Student.LastName = "Puig"
+and Exercise.Name = "Critters";
+
+INSERT INTO StudentExercises (StudentId, ExerciseId)
+select Student.Id, Exercise.Id
+from Student, Exercise
+where Student.FirstName = "Captain" 
+and Student.LastName = "Crunch"
+and Exercise.Name = "Glassdale";
+
+INSERT INTO StudentExercises (StudentId, ExerciseId)
+select Student.Id, Exercise.Id
+from Student, Exercise
+where Student.FirstName = "John" 
+and Student.LastName = "Kreese"
+and Exercise.Name = "Cthulu";
+
+INSERT INTO StudentExercises (StudentId, ExerciseId)
+select Student.Id, Exercise.Id
+from Student, Exercise
+where Student.FirstName = "Amos" 
+and Student.LastName = "Burton"
+and Exercise.Name = "Kandy Korner";
+
+INSERT INTO StudentExercises (StudentId, ExerciseId)
+select Student.Id, Exercise.Id
+from Student, Exercise
+where Student.FirstName = "Ellen" 
+and Student.LastName = "Ripley"
+and Exercise.Name = "Keahua";
+
+INSERT INTO StudentExercises (StudentId, ExerciseId)
+select Student.Id, Exercise.Id
+from Student, Exercise
+where Student.FirstName = "Dwight" 
+and Student.LastName = "Schrutte"
+and Exercise.Name = "Critters";
+
+INSERT INTO StudentExercises (StudentId, ExerciseId)
+select Student.Id, Exercise.Id
+from Student, Exercise
+where Student.FirstName = "King" 
+and Student.LastName = "Reptar"
+and Exercise.Name = "Glassdale";
+
+INSERT INTO StudentExercises (StudentId, ExerciseId)
+select Student.Id, Exercise.Id
+from Student, Exercise
+where Student.FirstName = "Yasiel" 
+and Student.LastName = "Puig"
+and Exercise.Name = "Cthulu";
+
+INSERT INTO StudentExercises (StudentId, ExerciseId)
+select Student.Id, Exercise.Id
+from Student, Exercise
+where Student.FirstName = "Captain" 
+and Student.LastName = "Crunch"
+and Exercise.Name = "Kandy Korner";
+
+INSERT INTO StudentExercises (StudentId, ExerciseId)
+select Student.Id, Exercise.Id
+from Student, Exercise
+where Student.FirstName = "John" 
+and Student.LastName = "Kreese"
+and Exercise.Name = "Keahua";
+
+INSERT INTO StudentExercises (StudentId, ExerciseId)
+select Student.Id, Exercise.Id
+from Student, Exercise
+where Student.FirstName = "Amos" 
+and Student.LastName = "Burton"
+and Exercise.Name = "Critters";
+
+INSERT INTO StudentExercises (StudentId, ExerciseId)
+select Student.Id, Exercise.Id
+from Student, Exercise
+where Student.FirstName = "Ellen" 
+and Student.LastName = "Ripley"
+and Exercise.Name = "Glassdale";
+
+select * from StudentExercises;
